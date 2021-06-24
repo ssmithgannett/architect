@@ -1,0 +1,75 @@
+.edit-post-layout__content {
+  background-color: #FFF3E1!important;
+}
+
+.editor-post-title__input {
+  color: white;
+}
+
+.hero_caption_preview, .editor_caption {
+  color: #D8402F;
+}
+
+.byline_author_block1, .byline_author_block2, .byline_author_block3 {
+  color: #D8402F;
+}
+
+.byline_pub_block1, .byline_pub_block2, .byline_pub_block3 {
+  color: #000;
+}
+
+.bc {
+  color: #000;
+}
+
+.bc a {
+  color: #D8402F;
+  border-bottom: 1px solid;
+}
+
+.blockquote_edit {
+  background-color: #D8402F;
+  padding: 3%;
+}
+
+.quote_line {
+  background-color: #FFF3E1;
+}
+
+.quote_mark {
+  color: #FFF3E1;
+}
+
+.quote_quote_edit, .quote_attr {
+  color: #FFF3E1;
+}
+
+p.wp-block-paragraph.has-drop-cap::first-letter {
+  color: #D8402F;
+  font-family: 'Unify Sans Condensed', sans-serif;
+  font-size: 4.3rem;
+  float: left;
+  line-height: .6;
+  padding:  10px 5px 7px 7px;
+  font-weight: 900;
+  height: auto;
+}
+
+p.has-drop-cap:focus::first-letter {
+  font-family: 'Unify Sans Condensed', sans-serif;
+  font-size: 4.3rem;
+  float: left;
+  line-height: .7;
+  padding:  10px 5px 7px 7px;
+  font-weight: 900;
+  height: auto;
+}
+
+.button_text_block {
+  background-color: #D8402F;
+  color: #FFF3E1;
+}
+
+.headline2_enter, .intro2_enter {
+  color: #404040!important;
+}

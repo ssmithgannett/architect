@@ -1,0 +1,129 @@
+.edit-post-layout__content {
+  background-color: #404040;
+}
+
+.editor-post-title__input {
+  color: white;
+}
+
+.hero_caption_preview, .editor_caption {
+  color: #a1a1a1;
+}
+
+.byline_author_block1, .byline_author_block2, .byline_author_block3 {
+  color: #FFF;
+}
+
+.byline_pub_block1, .byline_pub_block2, .byline_pub_block3 {
+  color: #a1a1a1;
+}
+
+.wp-block-paragraph {
+  color: #d7d7d7;
+}
+
+.blockquote_edit {
+  background-color: #404040;
+  padding: 3%;
+}
+
+.quote_line {
+  background-color: #FFF;
+}
+
+.quote_mark {
+  color: #FFF;
+}
+
+.quote_quote_edit, .quote_attr {
+  color: #FFF;
+}
+
+p.wp-block-paragraph.has-drop-cap::first-letter {
+  color: #FFF;
+  font-family: 'Unify Sans Condensed', sans-serif;
+  font-size: 4.3rem;
+  float: left;
+  line-height: .6;
+  padding:  10px 5px 7px 7px;
+  font-weight: 900;
+  height: auto;
+}
+
+p.has-drop-cap:focus::first-letter {
+  font-family: 'Unify Sans Condensed', sans-serif;
+  font-size: 4.3rem;
+  float: left;
+  line-height: .7;
+  padding:  10px 5px 7px 7px;
+  font-weight: 900;
+  height: auto;
+}
+
+figcaption {
+  color: #a1a1a1;
+  font-family: 'Unify Sans', sans-serif;
+}
+
+.sub_edit {
+  color: #FFF;
+}
+
+.sub_button {
+  border-bottom: 1px solid;
+}
+
+.sub_edit hr {
+  border-color: #FFF;
+}
+
+.editor-post-title__block .editor-post-title__input {
+  color: #FFF;
+}
+
+.editor-plain-text.block-editor-plain-text.arch_subhead {
+background-color: transparent;
+color: #FFF;
+}
+
+.button_text_block {
+  background-color: #FFF;
+  color: #404040;
+}
+
+.headline2_enter, .intro2_enter {
+  color: #FFF!important;
+}
+
+.block-editor-inserter-with-shortcuts__block, .dashicon.dashicons-insert {
+  color: #FFF!important;
+}
+
+.edit-post-header-toolbar .dashicon.dashicons-insert {
+  color: #000!important;
+}
+
+.edit-post-header-toolbar .dashicon.dashicons-insert:hover {
+  color: #000!important;
+  background-color: transparent;
+}
+
+
+
+.block-editor-inserter-with-shortcuts__block:hover, .dashicon.dashicons-insert:hover {
+  color: #404040!important;
+  background-color: #FFF!important;
+}
+
+
+.wp-block-embed figcaption {
+  color: #FFF;
+}
+
+.block-editor-default-block-appender textarea.block-editor-default-block-appender__content{
+  color:#FFF!important;
+}
+
+.editor-post-title__input::placeholder {
+  color: #FFF!important;
+}

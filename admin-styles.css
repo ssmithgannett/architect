@@ -1,0 +1,160 @@
+@font-face {
+		font-family: 'Unify Sans';
+		src: url('fonts/UnifySans_Rg.ttf');
+		font-weight: normal;
+}
+
+@font-face {
+		font-family: 'Unify Sans';
+		src: url('fonts/UnifySans_Bd.ttf');
+		font-weight: bold;
+}
+
+@font-face {
+		font-family: 'Unify Serif';
+		src: url('fonts/UnifySerif_A_Rg.ttf');
+		font-weight: normal;
+}
+
+@font-face {
+		font-family: 'Unify Sans Condensed';
+		src: url('fonts/UnifySansCd_Bd.ttf');
+		font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Unify Serif Display';
+	src: url('fonts/UnifySerif_A_DisplayBd.ttf');
+	font-weight: bold;
+}
+
+.editor-inserter__results.block-editor-inserter__results {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+div.editor-inserter__results.block-editor-inserter__results > :first-child {
+  display: none;
+}
+
+div.editor-inserter__results.block-editor-inserter__results > :nth-child(2) {
+  margin-bottom: auto;
+}
+
+
+
+
+div.components-dropdown-menu__menu :nth-child(2), div.components-dropdown-menu__menu :nth-child(4) {
+  display: none;
+}
+
+
+
+
+div.components-panel__row p {
+  width: 100%;
+  overflow-wrap: break-word;
+}
+
+.wp-block-embed figcaption {
+  text-align: left;
+  width: 100%;
+  margin: 1.5rem auto;
+}
+
+div[data-type="full-width-image/main"] .editor_caption {
+  width: 60%;
+  margin: auto;
+}
+
+.wp-block-paragraph {
+  width: 80%;
+  margin: auto;
+	font-family: 'Unify Serif';
+}
+
+p.has-drop-cap::first-letter {
+  font-size: 5rem;
+  line-height: 4rem;
+  color: #F00;
+  font-family: 'Unify Sans Condensed', sans-serif;
+  font-weight: bold;
+  float: left;
+  padding-right: 5px;
+  margin-bottom: -10px;
+  height: auto;
+}
+
+p.has-drop-cap:focus::first-letter {
+  font-size: 6.5rem!important;
+  line-height: 4.7rem;
+  color: #404040;
+  font-family: 'Unify Sans Condensed', sans-serif;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: 0px;
+  height: auto;
+}
+
+.has-drop-cap:not(:focus):first-letter {
+  font-size: 6.5rem!important;
+  line-height: 4rem;
+  color: #404040;
+  font-family: 'Unify Sans Condensed', sans-serif;
+  font-weight: bold;
+  float: left;
+  margin-right: 5px;
+  margin-bottom: -10px;
+}
+
+.headline_edit {
+  width: 80%;
+  margin: auto;
+  min-height: 300px;
+  height: auto;
+}
+
+.headline2_enter {
+  text-align: left;
+  font-size: 5rem!important;
+  line-height: 6rem!important;
+  background-color: transparent!important;
+}
+
+.intro2_enter {
+  text-align: left;
+  line-height: 1.3rem!important;
+  font-size: 1.3rem!important;
+  background-color: transparent!important;
+}
+
+
+.components-panel__body.editor-panel-color-settings.block-editor-panel-color-settings, .components-font-size-picker__buttons, .components-base-control .components-base-control__label {
+  display: none!important;
+}
+
+
+
+.inspector-doc {
+  font-size: .8rem;
+}
+
+.byline_edit {
+	font-family: 'Unify Sans';
+}
+
+.caption-settings {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.caption-settings * {
+	margin-top: 5px;
+}
+
+.section-anchor {
+	color: #cdcdcd;
+}
